@@ -33,9 +33,11 @@
             <h1>
                 郭欣奇
             </h1>
-            <img src="/images/1.jpg" alt="" width=100 height=100>
+            <div class="face">
+            <img src="images/1.jpg" alt=""  height=100>
+            </div>
             <p>
-                男|25岁|前端开发工程师|北京
+                男|26岁|前端开发工程师|北京
             </p>
             <p>
                 手机:15545723169<br/>
@@ -63,36 +65,46 @@
             <h1>
                 开源项目及作品
             </h1>
-            <p>宇智波族徽</p>
-            <a href="https://github.com/cazser/yuzhibo" 
-                    target="_blank">代码链接</a>
-            <a href="https://cazser.github.io/yuzhibo/index.html"
-                    target="_blank">预览网址</a>
-            <iframe src="https://cazser.github.io/yuzhibo/index.html">
-
-            </iframe>
             <p>简易时钟</p>
             <a href="https://github.com/cazser/clock" 
-                    target="_blank">代码链接</a>
-            <a href="https://cazser.github.io/clock/src/index.html"
-                    target="_blank">预览网址</a>
+                    target="_blank">代码链接:https://github.com/cazser/clock</a>
+            <br/>
+            <a href="https://github.com/cazser/clock/src/index.html"
+                    target="_blank">预览网址:https://github.com/cazser/clock/src/index.html</a>
+            <div>
             <iframe src="https://cazser.github.io/clock/src/index.html">
 
-            </iframe>                        
+            </iframe>
+            </div>                        
+        </section>
+        <section>
+            <h4>专栏</h4>
+            <p>https://www.zhihu.com/people/guo-xin-qi-90/columns</p>
         </section>
         <section>
             <h1>
                 技能
             </h1>
+            <p>
+                语言：html, css, js,es6,typescript
+            </p>
+            <p>
+                框架：vue, react, angular, blazor
+            </p>
         </section>
     </article>
     <script src="main.js">
 
     </script>
     <style>
+        *{padding: 0; margin: 0; box-sizing: border-box;}
+        *::after, *::before{box-sizing: boder-box;}
         iframe{
-            height: 300px;
-            width: 300px;
+            height: 250px;
+            width: 250px;
+        }
+        .face{
+            float: right;
         }
     </style>
 </body>
