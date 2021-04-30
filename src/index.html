@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的简历</title>
     <style>
-        *{
+        * {
             box-sizing: border-box;
         }
-        body{
-            background:#eee;
+
+        body {
+            background: #eee;
             margin: 20px 0;
         }
-        article{
+
+        article {
             width: 21cm;
             min-height: 29.7cm;
             background: white;
             margin: 0 auto;
-            overflow:auto;
+            overflow: auto;
             padding: 1em;
+        }
+
+        img{
+            border:1px solid black;
         }
     </style>
     <style media="print">
-        body{
+        body {
             margin: 0;
         }
     </style>
 </head>
+
 <body>
     <article>
         <section>
@@ -34,14 +42,14 @@
                 郭欣奇
             </h1>
             <div class="face">
-            <img src="images/1.jpg" alt=""  height=100>
+                <img src="images/2.jpg" alt="" height=100>
             </div>
             <p>
                 男|26岁|前端开发工程师|北京
             </p>
             <p>
-                手机:15545723169<br/>
-                微信:15545723169<br/>
+                手机:15545723169<br />
+                微信:15545723169<br />
                 邮箱:2264712072@qq.com
             </p>
         </section>
@@ -66,39 +74,37 @@
                 开源项目及作品
             </h1>
             <p>简易时钟</p>
-            <a href="https://github.com/cazser/clock" 
-                    target="_blank">代码链接:https://github.com/cazser/clock</a>
-            <br/>
+            <a href="https://github.com/cazser/clock" target="_blank">代码链接:https://github.com/cazser/clock</a>
+            <br />
             <a href="https://github.com/cazser/clock/src/index.html"
-                    target="_blank">预览网址:https://github.com/cazser/clock/src/index.html</a>
+                target="_blank">预览网址:https://github.com/cazser/clock/src/index.html</a>
             <div>
-            <iframe src="https://cazser.github.io/clock/src/index.html">
+                <iframe src="https://cazser.github.io/clock/src/index.html">
 
-            </iframe>
-            <p>钟摆</p>
-            <a href="https://github.com/cazser/pendulum" 
-                    target="_blank">代码链接:https://github.com/cazser/pendulum</a>
-            <br/>
-            <a href="https://github.com/cazser/clock/index.html"
+                </iframe>
+                <p>钟摆</p>
+                <a href="https://github.com/cazser/pendulum" target="_blank">代码链接:https://github.com/cazser/pendulum</a>
+                <br />
+                <a href="https://github.com/cazser/clock/index.html"
                     target="_blank">预览网址:https://github.com/cazser/clock/index.html</a>
-            <div>
-            
-            </div> 
-            <p>导航网站</p>
-            <a href="https://github.com/cazser/nav" 
-                    target="_blank">代码链接:https://github.com/cazser/nav</a>
-            <br/>
-            <a href="https://github.com/cazser/nav/dist/index.html"
-                    target="_blank">预览网址:https://github.com/cazser/nav/dist/index.html</a>
-            <div>
-            <iframe src="https://cazser.github.io/nav/dist/index.html">
+                <div>
 
-            </iframe>
+                </div>
+                <p>导航网站</p>
+                <a href="https://github.com/cazser/nav" target="_blank">代码链接:https://github.com/cazser/nav</a>
+                <br />
+                <a href="https://github.com/cazser/nav/dist/index.html"
+                    target="_blank">预览网址:https://github.com/cazser/nav/dist/index.html</a>
+                <div>
+                    <p>自定义vscode主题</p>
+                    <a href="https://github.com/cazser/blueInk">
+                        代码链接:https://github.com/cazser/blueInk
+                    </a>
         </section>
         <section>
             <h4>专栏</h4>
             <p><a href="https://www.zhihu.com/people/guo-xin-qi-90/columns">
-                https://www.zhihu.com/people/guo-xin-qi-90/columns
+                    https://www.zhihu.com/people/guo-xin-qi-90/columns
                 </a>
             </p>
             <h4>github主页</h4>
@@ -116,7 +122,7 @@
                 语言：html, css, js,es6,typescript
             </p>
             <p>
-                框架：vue, react, angular, blazor
+                框架：vue, react, angular, blazor, svelte
             </p>
         </section>
     </article>
@@ -124,15 +130,26 @@
 
     </script>
     <style>
-        *{padding: 0; margin: 0; box-sizing: border-box;}
-        *::after, *::before{box-sizing: boder-box;}
-        iframe{
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        *::after,
+        *::before {
+            box-sizing: boder-box;
+        }
+
+        iframe {
             height: 250px;
             width: 250px;
         }
-        .face{
+
+        .face {
             float: right;
         }
     </style>
 </body>
+
 </html>
