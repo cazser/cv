@@ -39,11 +39,11 @@
     <article class="clearfix">
         <aside>
             <section>
-                <h1>
+                <h1 class="name">
                     郭欣奇
                 </h1>
                 <div class="face">
-                    <img src="images/2.jpg" alt="" height=100>
+                    <img src="./images/3.jpg" alt="" height=100>
                 </div>
                 <hr width="200px" align="left" />
                 <p>
@@ -60,18 +60,18 @@
                     教育经历
                 </h1>
                 <p>
-                    <span>本科: 2013-2018年 东北农业
-						<br />大学</span>
-                    <span>
-						农林经济管理专业
-					</span>
-                </p>
-                <p>
                     <span>
 						研究生：2019-至今
 						<br />哈尔滨师范大学
 						<br />
 						软件工程专业
+					</span>
+                </p>
+                <p>
+                    <span>本科: 2013-2018年 东北农业
+						<br />大学</span>
+                    <span>
+						农林经济管理专业
 					</span>
                 </p>
             </section>
@@ -113,6 +113,14 @@
                         <br />图片上传组件等
                     </div>
                 </p>
+                <hr />
+                <p>
+                    <span>qqLogo</span>
+                    <a href="https://github.com/cazser/qqlogo" target="_blank">代码链接:https://github.com/cazser/qqlogo
+					</a>
+                    <a href="https://cazser.github.io/qqlogo/" target="_blank">预览链接:https://cazser.github.io/qqlogo/ </a>
+                </p>
+                <hr />
                 <p> <span>钟摆</span>
                     <div>
                         应用css3和animation
@@ -121,6 +129,7 @@
                     <br />
                     <a href="https://github.com/cazser/clock/index.html" target="_blank">预览网址:https://github.com/cazser/clock/index.html</a>
                 </p>
+                <hr />
                 <p>
                     <span>导航网站</span>
                     <a href="https://github.com/cazser/nav" target="_blank">代码链接:https://github.com/cazser/nav</a>
@@ -201,15 +210,25 @@
         }
         
         article>aside {
-            float: left;
             background-color: #e3e3e3;
             padding: 20px;
             height: 100vh;
             max-width: 300px;
         }
         
-        article>.rightPanel {
-            float: right;
+        article {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .name {
+            display: flex;
+            justify-content: center;
+        }
+        
+        p {
+            padding: 16px;
         }
     </style>
 </body>
