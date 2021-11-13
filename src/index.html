@@ -91,18 +91,28 @@
             <section>
                 <hr width="200px" align="left" />
                 <h1>兴趣爱好</h1>
+                <p>
+                    电影，综艺，美食
+                </p>
             </section>
         </aside>
         <div class="rightPanel">
             <section>
-                <h1>
-                    工作经历
+                <h1> 开源项目及作品
                 </h1>
-            </section>
-            <section>
-                <h1>
-                    开源项目及作品
-                </h1>
+                <p>
+                    <span>小马记账</span>
+                    <div>有一段时间我想要节约开支，所以就做了这个项目。记录钱花在哪里了。</div>
+                    <div>技术栈使用react, react hooks, css-in-js</div>
+                    <div class="img-wrapper">
+                        <img src="images/4.jpg" />
+                        <img src="images/5.jpg" />
+                        <img src="images/6.jpg" />
+                        <img src="images/7.jpg" />
+                    </div>
+                    <a href="https://gitee.com/cazser/morney-6" target="_blank">代码链接:https://gitee.com/cazser/morney-6</a>
+                    <hr />
+                </p>
                 <p>
                     <span>UI框架</span>
                     <a href=" https://github.com/cazser/biubiuUI-1" target="_blank">
@@ -116,9 +126,15 @@
                 <hr />
                 <p>
                     <span>qqLogo</span>
+                    <div>
+                        我看到腾讯alloyteam的作品<a href="http://www.alloyteam.com/wp-content/demos/css3-tencent-qq-logo-advanced/">链接</a>。觉得很有意思，就借鉴它自己做了一个类似的。
+                    </div>
                     <a href="https://github.com/cazser/qqlogo" target="_blank">代码链接:https://github.com/cazser/qqlogo
 					</a>
                     <a href="https://cazser.github.io/qqlogo/" target="_blank">预览链接:https://cazser.github.io/qqlogo/ </a>
+                    <div class="img-wrapper">
+                        <img src="images/8.jpg" />
+                    </div>
                 </p>
                 <hr />
                 <p> <span>钟摆</span>
@@ -197,29 +213,28 @@
         iframe {
             height: 250px;
             width: 250px;
+            display: flex;
+            justify-content: center;
         }
         
         .face {
             margin: 10px;
         }
         
-        .clearfix ::after {
-            content: '';
-            display: block;
-            clear: both;
+        .rightPanel {
+            margin-left: 8px;
         }
         
         article>aside {
-            background-color: #e3e3e3;
+            background-color: #e6e6e6;
             padding: 20px;
-            height: 100vh;
             max-width: 300px;
         }
         
         article {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-around;
         }
         
         .name {
@@ -229,6 +244,14 @@
         
         p {
             padding: 16px;
+        }
+        
+        .img-wrapper>img {
+            max-height: 210px;
+        }
+        
+        .img-wrapper {
+            display: flex;
         }
     </style>
 </body>
