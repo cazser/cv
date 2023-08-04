@@ -21,7 +21,7 @@
                 <div class="face">
                     <img src="./images/3.jpg" alt="" height=100>
                 </div>
-                    <div>男|前端开发工程师</div>
+                    <div>男|c++开发工程师</div>
                     <div>手机:15545723169</div>
                     <div>微信:15545723169</div>
                     <div>邮箱:2264712072@qq.com</div>
@@ -57,7 +57,7 @@
                 </p>
                 <p>
                     本科:东北农业大学
-                    <br>时间:2014-2018
+                    <br>时间:2013-2018
                     <br>专业:农林经济管理专业
                 </p>
             </div>
@@ -88,14 +88,10 @@
                     <li>
                         熟悉常见的前端开发框架，如React、Vue等，
                         并能够使用它们构建复杂的交互式界面。
-                        掌握前端性能优化的技巧，能够通过减少资源加载、
-                        压缩代码等方式提升页面加载速度和用户体验。
                 </li>
                 <li>
                     了解前端工程化的概念，能够使用构建工具
                     如Webpack、Vite等进行项目的自动化构建和部署。
-                    熟悉响应式布局和移动端开发，
-                    能够根据不同设备的屏幕尺寸进行页面适配。
                 </li>
                 <li>
                     具备良好的代码规范和编程习惯，能够编写可维护、可扩展的代码。
@@ -104,7 +100,6 @@
                 <li>
                     具备良好的沟通能力和团队合作精神，
                     能够与设计师、后端开发人员等进行有效的协作。
-                    持续学习和研究新的前端技术和趋势，保持对前端领域的敏感度和热情。
                 </li>   
                 <li>
                      熟悉webgl及Three.js
@@ -115,9 +110,35 @@
             </div>
            
         </div>
-    <table class="project">
-      <div>1111</div>
-    </table>
+    <div class="projects">
+        
+      <h1>开源项目及作品</h1>
+      <div class="project">
+      <div>
+        <h3>monkey语言解释器</h3>
+                    <div>使用go语言开发，类c语法，支持数字，字符串，布尔类型，支持算术表达式，函数是一等公民，支持闭包，实现哈希表和数组等数据结构。</div>
+                    <a href="https://github.com/cazser/monkey" target="_blank">代码地址:https://github.com/cazser/monkey</a>
+                
+
+      </div>
+      </div>
+      <div class="project">
+             <h2>weui-vue</h2>
+                    <div>使用vite+vue3，实现例如按钮组件，折叠面板，对话框，选择框组件，单选择器组件，日期选择组件，日历组件开关组件等实用组件。满足一些常见的开发需求。</div>
+                    <div class="img-wrapper">
+                        <img src="./images/weui1.PNG">
+                        <img src="./images/weui2.PNG">
+                        <img src="./images/weui3.PNG">
+                        <img src="./images/weui4.PNG">
+                        <img src="./images/weui5.PNG">
+                        <img src="./images/weui6.PNG">
+                        <img src="./images/weui7.PNG">
+                        <img src="./images/weui8.PNG">
+                    </div>
+                     <a href="https://github.com/cazser/weui-vue" target="_blank">代码地址:https://github.com/cazser/weui-vue</a>
+                
+      </div>
+    </div>
     </div>
 </body>
 <style>
@@ -135,10 +156,9 @@
             text-decoration: none;
             color: inherit;
         }
-    body{
-        border: 1px solid red;
+    image{
+        max-width: 50px;
     }
-
     .person{
         
         background: #254665;
@@ -184,7 +204,25 @@
 
     .skill{
         margin: 10px;
-        border-bottom: 1px solid white;
+        font-size: 14px;
     }
+
+    .projects{
+        margin:10px;
+    }
+
+     .img-wrapper {
+            display: flex;
+            max-width: 800px;
+            flex-wrap: wrap;
+        }
+
+          .img-wrapper>img {
+            max-height: 150px;
+        }
+
+   .project{
+    padding: 10px;
+   }
 </style>
 </html>
