@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的简历</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <div class="person">
+            <div class="personal">
+                <h1 class="name">
+                    郭欣奇
+                </h1>
+                <div class="face">
+                    <img src="./images/3.jpg" alt="" height=100>
+                </div>
+                <div>男|测试工程师</div>
+                <div>手机:15545723169</div>
+                <div>微信:15545723169</div>
+                <div>邮箱:2264712072@qq.com</div>
+            </div>
+
+            <div class="education">
+                <h3>
+                    教育经历
+                </h3>
+                <p>
+                    研究生:哈尔滨师范大学
+                    <br>时间:2019-2023
+                    <br>专业:软件工程
+                </p>
+                <p>
+                    本科:东北农业大学
+                    <br>时间:2013-2018
+                    <br>专业:农林经济管理专业
+                </p>
+            </div>
+            <div class="work-experience">
+                <h3>
+                    工作经历
+                </h3>
+                <div>
+                    2022.9-至今
+                    <br>
+                    <span>百度在线网络技术（北京）有限公司 </span>
+                    <br>
+                    <span>职位:测试工程师</span>
+                </div>
+
+            </div>
+            <div class="skill">
+                <h3>技能</h3>
+                <div>
+                    <ul>
+                        <li>有一定的文档编写能力，能够完成测试计划、测试报告等测试文档的编写</li>
+                        <li>能熟练的对系统进行分析，确认测试需求，编写测试用例</li>
+                        <li>能够独立搭建测试环境和维护测试环境</li>
+                        <li>熟练使用场景发、错误推测法、边界值法、等价类划分法等测试方法</li>
+                        <li>熟练使用Python语言，包括数据模型、内置函数、常见异常、方法调用等</li>
+                        <li>熟练使用软件测试工具如：jmeter、fiddler、charles、appium、chrome开发者工具</li>
+                        <li>熟练使用开发工具数据库连接工具Navicat，熟练使用xshell、Mobaxterm工具</li>
+                        <li>熟练使用MySQL的增删改查、关联查询、聚合函数等，了解数据库事务和索引</li>
+                        <li>熟练使用adb、linux的常用命令</li>
+                        <li>熟练使用自动化测试工具selenium、appium，能够独立编写测试脚本，使用unittest执行用例和HTMLTestRunner生成测试报告，了解自动化框架的执行原理</li>
+                        <li>掌握POM的自动化框架开发模型，了解产品内部技术架构Hadoop、MapReduce、HDFS</li>
+                        <li>熟练掌握App专项测试的流程</li>
+                        <li>了解OSI的七层模型，了解TCP、IP、HTTP、FTP协议以及常见的HTTP状态码</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="writing">
+
+                <h4>专栏</h4>
+                <p><a href="https://www.zhihu.com/people/guo-xin-qi-90/columns" target="_blank">
+                        https://www.zhihu.com/people/guo-xin-qi-90/columns
+                    </a>
+                </p>
+                <h4>github主页</h4>
+                <p>
+                    <a href="https://github.com/cazser" target="_blank">
+                        https://github.com/cazser
+                    </a>
+                </p>
+                <h4>gitee主页</h4>
+                <p>
+                    <a href="https://gitee.com/cazser" target="_blank">
+                        https://gitee.com/cazser
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="projects">
+
+            <h1>工作期间参与过的项目</h1>
+            <div class="project">
+                <div class="project-title">
+                    <h3>2023.01-至今</h3>
+                    <h3>百度网盘系统</h3>
+                    <h3> </h3>
+                    <h3> </h3>
+                    <h3> </h3>
+                    <h3> </h3>
+                </div>
+                <h4>项目描述：</h4>
+                <p>
+                    百度网盘是基于云存储的文件管理系统，主要功能包括文件上传、下载、分享、收藏、备份、会员服务等功能。支持一键备份、一键分享、秒传，用户可以将自己的文件上传到云端进行实时、跨设备访问，能带给用户更好的体验。此外百度网盘还具有容量大、安全性高、支持多平台的特点。
+                </p>
+                <h4>项目架构：</h4>
+                <h5>百度网盘系统属于分布式系统架构，</h5>
+                <ol class="list">
+                    <li>系统部署分别为: Weblogic mysql</li>
+                    <li>大数据服务分别为:Hadoop (解决日益增加的文件存储量和数据量瓶颈)</li>
+                    <li>Hbase (非关系型数据库，适合于 hadoop 这种分布式计算框架，处理大量数据。)</li>
+                    <li>MapReduce 框架(分布式计算问题、编程模型): 有两个方法 Map方法和 Reduce 方法。</li>
+                    <li>Map: 每个文件分片由单独的机器去处理。</li>
+                    <li>Reduce：将各个机器的计算结果汇总得到最终结果。</li>
+                </ol>
+                <h4>工作内容：</h4>
+                <h5>（一）功能测试：</h5>
+                <ol class="list">
+                    <li>前期负责规划好测试范围、测试进度、测试风险的预防，明确测试组织关系、测试类型、测试通过准则等并形成最终的测试计划，之后对文件上传、分享、备份三个模块进行需求分析、需求评审、用例开发、用例评审，准备测试数据。
+                    </li>
+                    <li>中期执行用例，收集测试过程产生的bug，定位分析bug的类型、产生的原因，和开发做好对接工作，追踪bug的状态进行回归测试。
+                    </li>
+                    <li>后期对本次测试结果进行分析，根据通过准则生成测试结论，进行测试报告的编写，最后进行测试归档。
+                    </li>
+                </ol>
+                <h5>
+                    （二）接口测试：
+                </h5>
+                <ol class="list">
+                    <li>前期划分接口测试的范围、搭建测试环境、准备接口文档和开发测试用例，测试用例考虑场景法、边界值法、数据异常、参数异常、安全性进行用例设计，将用例数据存放至csv文件当中。
+                    </li>
+                    <li>中期使用jmeter开发测试脚本，添加http请求，配置url，请求方式，编码格式，请求参数、添加响应断言、查看结果树等组件，添加cookie管理器、正则表达式提取、cvs data set
+                        config等组件进行脚本增强，配置csv文件路径、编码格式、变量引用名、忽略首行等。之后执行脚本，收集并使用fiddler抓包定位分析bug、提交bug给开发进行修复，不断跟进bug的状态。
+                    </li>
+                    <li>后期主要是对bug进行回归测试，测试全部通过后对测试进行总结，编写测试报告并进行测试归档。
+                    </li>
+                    <li>
+                        解决其他测试人员遇到的技术问题和业务问题
+                    </li>
+                </ol>
+                <h5>（三）自动化测试：</h5>
+                <ol class="list">
+                    <li>
+                        前期划分进行自动化测试的范围，以大量重复操作、大量数据处理作为自动化的划分依据（文件上传、分享），搭建测试环境，确定我们使用的硬件设备、软件环境、服务器端的环境配置等，明确使用selenium自动化测试框架进行自动化处理，并准备好自动化测试需要的数据。
+                    </li>
+                    <li>中期开发自动化脚本，导入selenium
+                        webdriver、ddt模块、unittest框架、time模块等，根据pom思想进行框架的分层开发，脚本开发完成之后执行我们的测试脚本，并收集测试结果，并对产生的bug进行定位分析，最后提交给开发进行修复。
+                    </li>
+                    <li>后期负责跟进bug，与开发做好对接，对bug进行回归测试，并编写最终的测试报告以及进行测试归档。同时将我们的脚本进行保留，不断完善脚本、增强脚本，用于后续软件版本的迭代测试。
+                    </li>
+                    <li>协助解决其他测试人员对脚本开发过程中遇到的问题。</li>
+                    <li>参与公司的技术培训、技术考核</li>
+                </ol>
+
+            </div>
+            <div class="project">
+                <span class="project-title">
+                    <h3>
+                        2022.09-2023.01
+                    </h3>
+                    <h3> 百度文库
+                    </h3>
+                    <h3> </h3>
+                    <h3> </h3>
+                    <h3> </h3>
+                    <h3> </h3>
+                </span>
+                <h4>项目描述：</h4>
+                <p>
+                    百度文库是百度发布的供网友在线分享文档的平台，文档由百度用户上传，经百度审核后发布。文档包括教学资料、考试题库、专业资料、公文写作、法律文件等多个领域的资料，网友可以在线阅读，对文档进行上传、收藏、下载、格式转换等操作，还支持积分制、会员制，让用户可以享受更多的权益。基于百度科技背景，百度文库还具有用户量大、资源丰富、操作简便、精准搜索的特点。
+                </p>
+                <h4>项目架构：</h4>
+                <p>
+                    百度文库系统采用了php+mysql技术架构体系，底层使用了thinkphp框架，并以百度文库模板风格为基础风格。整个系统的架构是基于MySQL+PHP的技术架构体系，其中MySQL是一种关系型数据库管理系统。thinkphp是一种基于MVC模式的PHP开发框架，它提供了一系列的工具和方法，使得开发者可以更加高效地进行Web应用程序的开发。
+                </p>
+                <ol class="list">
+                    <li>分布式文件存储技术</li>
+                    <li>搜索引擎技术</li>
+                    <li>内容安全技术</li>
+                    <li>大数据处理技术</li>
+                    <li>云计算技术</li>
+                </ol>
+                <h4>工作内容：</h4>
+                <h5>（一）功能测试：</h5>
+                <ol class="list">
+                    <li>主要负责百度文库文件上传、文件收藏、格式转换三个模块的功能测试。首先针对自己所负责的模块确定测试需求，并组织开展组内需求评审。
+                    </li>
+                    <li>根据场景法、等价类、边界值等方式设计出测试用例，然后进行测试用例的组内评审，并完善测试用例。
+                    </li>
+                    <li>执行用例，分析并定位bug，并将 bug提交给开发，协助开发人员进行bug的修复然后对系统进行回归测试，最后在测试通过后编写测试报告、进行测试归档。
+                    </li>
+                    <li>负责其他测试人员的业务培训、配合最终的质量验收工作。</li>
+                </ol>
+                <h5>
+                    （二）性能测试：
+                </h5>
+                <ol class="list">
+                    <li>
+                        我主要负责百度文库的上传、文档转换两个模块。例如文件上传，前期我们需要确定性能指标包括最大并发用户数、tps、响应时间、cpu、内存和磁盘使用率
+                    </li>
+                    <li>
+                        设计单交易基准场景、单交易负载场景、混合场景和稳定性场景，之后客户端准备3-5 台负载机做分布式负载,搭建测试工具 Jmeter，监控工具 spotlight,以及jmeter依赖的
+                        java 环境
+                        jdk。
+                    </li>
+                    <li>
+                        中期针对两个交易的四种场景设计测试用例，之后准备脚本,在jmeter 里面添加线程组配置请求信息，添加 http 请求，响应断言和查看结果树，调试成功之后，加同步定时器、pmc、tps
+                        组件以及聚合报告进行增强。
+                    </li>
+                    <li>
+                        接下来根据jmeter的聚合报告等组件分析指标结果定位问题提交 bug，然后性能调优、回归测试。
+                    </li>
+                    <li>
+                        后期在回归测试后进行一次预发布进行验收，在预发布环境上测试，之后编写测试报告，发布到正式的上线环境，并进行测试归档。
+                    </li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+</body>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    ol,
+    ul {
+        list-style: none;
+    }
+
+    *::after,
+    *::before {
+        box-sizing: boder-box;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    image {
+        max-width: 50px;
+    }
+
+    .list {
+        list-style: decimal;
+        margin-left: 20px;
+    }
+
+    .person {
+
+        background: #254665;
+        color: white;
+        width: 350px;
+
+        word-wrap: break-word;
+    }
+
+    .personal {
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        border-bottom: 1px solid white;
+        margin: 10px;
+        width: 300px;
+
+        word-wrap: break-word;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .writing {
+        color: white;
+        margin: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    .education {
+        margin: 10px;
+        text-align: left;
+        border-bottom: 1px solid white;
+
+    }
+
+    .work-experience {
+        margin: 10px;
+        border-bottom: 1px solid white;
+
+    }
+
+    .skill {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    .projects {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    .img-wrapper {
+        display: flex;
+        max-width: 800px;
+        flex-wrap: wrap;
+    }
+
+    .img-wrapper>img {
+        max-height: 150px;
+    }
+
+    .project {
+        padding: 10px;
+    }
+
+    .logo {
+        max-height: 1.2em;
+    }
+
+    .project-title {
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
+
+</html>
